@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'chatscreen.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -7,9 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Chat App"),),
-
-
-
+      body: ChatScreen(),
     );
   }
 }
